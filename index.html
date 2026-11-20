@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>官方求职招聘导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        body {
+            background-color: #f4f7ff;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #224488;
+            margin-bottom: 16px;
+            font-size: 24px;
+        }
+        .control-bar {
+            background: #fff;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap:12px;
+            flex-wrap: wrap;
+        }
+        .tip {
+            background: #fff3cd;
+            color: #856404;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .link-item {
+            display: block;
+            background: white;
+            padding: 16px 18px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #222;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+            transition: 0.2s;
+            position: relative;
+        }
+        .link-item:hover {
+            background: #e8f0ff;
+            transform: translateY(-2px);
+        }
+        .num {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background: #407bff;
+            color: white;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-size: 15px;
+        }
+        .name-text {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .url-text {
+            display: none;
+            font-size: 13px;
+            color: #666;
+            margin-top: 6px;
+            padding-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>大学生·央国企官方求职平台</h1>
+        <div class="control-bar">
+            <input type="checkbox" id="showUrl">
+            <label for="showUrl">显示网址</label>
+        </div>
+        <div class="tip">⚠️凡是收取培训费、押金的，请谨慎识别，谨防求职诈骗</div>
+
+        <a href="https://job.ncss.cn" target="_blank" class="link-item">
+            <span class="num">1</span>
+            <span class="name-text">国家大学生就业服务平台</span>
+            <div class="url-text">https://job.ncss.cn</div>
+        </a>
+        <a href="https://cujiuye.iguopin.com" target="_blank" class="link-item">
+            <span class="num">2</span>
+            <span class="name-text">国资委央企招聘平台</span>
+            <div class="url-text">https://cujiuye.iguopin.com</div>
+        </a>
+        <a href="http://job.mohrss.gov.cn/" target="_blank" class="link-item">
+            <span class="num">3</span>
+            <span class="name-text">中国公共招聘网</span>
+            <div class="url-text">https://job.mohrss.gov.cn</div>
+        </a>
+        <a href="https://www.iguopin.com" target="_blank" class="link-item">
+            <span class="num">4</span>
+            <span class="name-text">国聘网</span>
+            <div class="url-text">https://www.iguopin.com</div>
+        </a>
+        <a href="https://www.newjobs.com.cn" target="_blank" class="link-item">
+            <span class="num">5</span>
+            <span class="name-text">中国国家人才网</span>
+            <div class="url-text">https://www.newjobs.com.cn</div>
+        </a>
+        <a href="https://chinajob.mohrss.gov.cn" target="_blank" class="link-item">
+            <span class="num">6</span>
+            <span class="name-text">中国就业网</span>
+            <div class="url-text">https://chinajob.mohrss.gov.cn</div>
+        </a>
+        <a href="http://www.tobacco.gov.cn/gjyc/zpxx/list.shtml" target="_blank" class="link-item">
+            <span class="num">7</span>
+            <span class="name-text">国家烟草网</span>
+            <div class="url-text">https://tobacco.gov.cn</div>
+        </a>
+        <a href="http://www.gaoxiaojob.com" target="_blank" class="link-item">
+            <span class="num">8</span>
+            <span class="name-text">高校烟草网</span>
+            <div class="url-text">http://www.gaoxiaojob.com</div>
+        </a>
+        <a href="https://zhaopin.sgcc.com.cn" target="_blank" class="link-item">
+            <span class="num">9</span>
+            <span class="name-text">国家电网</span>
+            <div class="url-text">https://zhaopin.sgcc.com.cn</div>
+        </a>
+        <a href="https://zhaopin.csg.cn" target="_blank" class="link-item">
+            <span class="num">10</span>
+            <span class="name-text">中国南方电网</span>
+            <div class="url-text">https://zhaopin.csg.cn</div>
+        </a>
+        <a href="https://rczp.china-railway.com.cn" target="_blank" class="link-item">
+            <span class="num">11</span>
+            <span class="name-text">中国铁路人才网</span>
+            <div class="url-text">https://rczp.china-railway.com.cn</div>
+        </a>
+        <a href="https://job.sinopec.com" target="_blank" class="link-item">
+            <span class="num">12</span>
+            <span class="name-text">中国石化</span>
+            <div class="url-text">https://job.sinopec.com</div>
+        </a>
+        <a href="http://www.yinhangzhaopin.com" target="_blank" class="link-item">
+            <span class="num">13</span>
+            <span class="name-text">银行招聘网</span>
+            <div class="url-text">http://www.yinhangzhaopin.com</div>
+        </a>
+        <a href="http://81rc.81.cn" target="_blank" class="link-item">
+            <span class="num">14</span>
+            <span class="name-text">军队人才网</span>
+            <div class="url-text">http://81rc.81.cn</div>
+        </a>
+        <a href="https://zhaopin.cnpc.com.cn" target="_blank" class="link-item">
+            <span class="num">15</span>
+            <span class="name-text">中国石油</span>
+            <div class="url-text">https://zhaopin.cnpc.com.cn</div>
+        </a>
+        <a href="https://www.cnooc.com.cn" target="_blank" class="link-item">
+            <span class="num">16</span>
+            <span class="name-text">中国海油</span>
+            <div class="url-text">https://cnooc.com.cn</div>
+        </a>
+        <a href="https://www.yingjiesheng.com" target="_blank" class="link-item">
+            <span class="num">17</span>
+            <span class="name-text">应届生求职网</span>
+            <div class="url-text">https://www.yingjiesheng.com</div>
+        </a>
+        <a href="https://job.10086.cn" target="_blank" class="link-item">
+            <span class="num">18</span>
+            <span class="name-text">中国移动</span>
+            <div class="url-text">https://job.10086.cn</div>
+        </a>
+        <a href="https://www.chinatelecom.com.cn" target="_blank" class="link-item">
+            <span class="num">19</span>
+            <span class="name-text">中国电信</span>
+            <div class="url-text">https://job.10000.com.cn</div>
+        </a>
+        <a href="https://www.chinaunicom.com.cn/46/menu01/528/column06" target="_blank" class="link-item">
+            <span class="num">20</span>
+            <span class="name-text">中国联通</span>
+            <div class="url-text">https://job.chinaunicom.com.cn</div>
+        </a>
+    </div>
+
+    <script>
+        const checkbox = document.getElementById('showUrl');
+        const urlList = document.querySelectorAll('.url-text');
+        checkbox.addEventListener('change', function () {
+            urlList.forEach(urlEl => {
+                urlEl.style.display = this.checked ? 'block' : 'none';
+            })
+        })
+    </script>
+</body>
+</html>
